@@ -106,6 +106,19 @@ body {
 
   background-color: rgba(127, 219, 255, 0.6);
   transition: background-color 250ms linear;
+  animation: slide-up 150ms linear;
+}
+
+@keyframes slide-up {
+	
+	0% {
+		top: 10em;
+	}
+	
+	100% {
+		top: 0;
+	}
+
 }
 
 .chart__item:hover .chart__bar {
